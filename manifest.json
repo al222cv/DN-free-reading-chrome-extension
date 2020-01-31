@@ -1,0 +1,19 @@
+{
+  "name": "DN Free Reading",
+  "version": "1.0",
+  "description": "DN Free Reading",
+  "permissions": [
+    "activeTab"
+  ],
+  "content_scripts": [
+    {
+      "matches": [
+        "https://*.dn.se/*"
+      ],
+      "js": [
+        "content.js"
+      ]
+    }
+  ],
+  "manifest_version": 2
+}
